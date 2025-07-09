@@ -1,5 +1,5 @@
 module "vpc" {
-    #source = "../terraform-aws-vpc"
+     #source = "../terraform-aws-vpc"
     source = "git::https://github.com/saivenkatuppu/terraform-aws-vpc.git?ref=main"  # refering from git repository
     project = var.project
     environment = var.environment
