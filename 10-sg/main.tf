@@ -1,6 +1,7 @@
 module "mongodb" {
     #source = "../../terraform-aws-securitygroup"
-       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
+
 
     project = var.project
     environment = var.environment
@@ -12,7 +13,7 @@ module "mongodb" {
 
 module "redis" {
     #source = "../../terraform-aws-securitygroup"
-       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+    source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
 
     project = var.project
     environment = var.environment
@@ -24,7 +25,7 @@ module "redis" {
 
 module "mysql" {
     #source = "../../terraform-aws-securitygroup"
-       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
 
     project = var.project
     environment = var.environment
@@ -36,7 +37,7 @@ module "mysql" {
 
 module "rabbitmq" {
     #source = "../../terraform-aws-securitygroup"
-       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
 
     project = var.project
     environment = var.environment
@@ -48,7 +49,7 @@ module "rabbitmq" {
 
 module "catalogue" {
     #source = "../../terraform-aws-securitygroup"
-       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
 
     project = var.project
     environment = var.environment
@@ -60,7 +61,7 @@ module "catalogue" {
 
 module "user" {
     #source = "../../terraform-aws-securitygroup"
-       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
 
     project = var.project
     environment = var.environment
@@ -72,7 +73,7 @@ module "user" {
 
 module "cart" {
     #source = "../../terraform-aws-securitygroup"
-       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
 
     project = var.project
     environment = var.environment
@@ -84,7 +85,7 @@ module "cart" {
 
 module "shipping" {
     #source = "../../terraform-aws-securitygroup"
-       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
 
     project = var.project
     environment = var.environment
@@ -96,7 +97,7 @@ module "shipping" {
 
 module "payment" {
     #source = "../../terraform-aws-securitygroup"
-    source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+    source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
 
     project = var.project
     environment = var.environment
@@ -108,7 +109,7 @@ module "payment" {
 
 module "backend_alb" {
     #source = "../../terraform-aws-securitygroup"
-       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
 
     project = var.project
     environment = var.environment
@@ -120,7 +121,7 @@ module "backend_alb" {
 
 module "frontend" {
     #source = "../../terraform-aws-securitygroup"
-       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
 
     project = var.project
     environment = var.environment
@@ -132,7 +133,7 @@ module "frontend" {
 
 module "frontend_alb" {
     #source = "../../terraform-aws-securitygroup"
-       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
 
     project = var.project
     environment = var.environment
@@ -144,7 +145,7 @@ module "frontend_alb" {
 
 module "bastion" {
     #source = "../../terraform-aws-securitygroup"
-       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
 
     project = var.project
     environment = var.environment
@@ -156,7 +157,7 @@ module "bastion" {
 
 module "vpn" {
     #source = "../../terraform-aws-securitygroup"
-       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git"
+       source = "git::https://github.com/saivenkatuppu/terraform-aws-sg.git?ref=main"
 
     project = var.project
     environment = var.environment

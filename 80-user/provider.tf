@@ -8,10 +8,10 @@ terraform {
 
   backend "s3" {
     bucket = "84s-roboshop-dev"
-    key    = "databases1"
+    key    = "user"
     region = "us-east-1"
     encrypt        = true
-    use_lockfile = true  #----> locking the state file 
+    use_lockfile = true
   }
 }
 
