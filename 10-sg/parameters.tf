@@ -14,6 +14,7 @@ resource "aws_ssm_parameter" "mysql_sg_id" {
   name  = "/${var.project}/${var.environment}/mysql_sg_id"
   type  = "String"
   value = module.mysql.sg_id
+  overwrite = true
 }
 
 resource "aws_ssm_parameter" "rabbitmq_sg_id" {
